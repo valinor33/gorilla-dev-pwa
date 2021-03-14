@@ -1,0 +1,23 @@
+{
+  "name": "gorilla_dev_pwa",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "react-scripts start",
+    "start": "serve ./build -s -p 4000",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "react": "^17.0.1",
+    "react-helmet": "^6.1.0",
+    "react-loader-spinner": "^4.0.0",
+    "react-router-dom": "^5.2.0",
+    "serve": "^11.3.2"
+  }
+}
