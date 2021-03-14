@@ -1,0 +1,11 @@
+.skills {
+    background-image: url("../../assets/background-skills.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: contain;
+    background-attachment: fixed;
+  }
+  
+  @media (max-width: 768px) {
+  }
+  
