@@ -1,78 +1,76 @@
 .navbar__burguer-icon {
-    background: none;
-    color: inherit;
-    border: none;
-    padding: 0;
-    font: inherit;
-    cursor: pointer;
-    outline: inherit;
-    border: 2px solid white;
-    width: 50px;
-    height: 50px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-  }
-  
-  .navbar__burguer-icon:hover {
-    background: var(--main-color-blue-light);
-  }
-  
-  .bar {
-    background-color: white;
-    width: 30px;
-    height: 4px;
-    margin: 3px;
-  }
-  
+  background: none;
+  color: inherit;
+  border: none;
+  padding: 16px;
+  font: inherit;
+  cursor: pointer;
+  outline: inherit;
+  width: 50px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.navbar__burguer-icon:hover {
+  background: var(--main-color-blue-light);
+}
+
+.bar {
+  border: 2px solid var(--main-color-light);
+  width: 30px;
+  height: 4px;
+  margin: 3px;
+}
+
+.burguerMenu {
+  display: none;
+}
+
+@media only screen and (max-width: 480px) {
   .burguerMenu {
+    position: relative;
+    z-index: 10000;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .navbar__burguer-icon {
+    margin-left: auto;
+  }
+
+  .navbar__brand-logo {
+    margin-bottom: 16px;
+  }
+
+  .navbar__links__mobile ul {
+    padding: 0;
+    margin: 0;
+
+    text-align: center;
+  }
+
+  .navbar__links__mobile li {
+    list-style: none;
+    padding: 1em 0;
+  }
+
+  .navbar__links__mobile a {
+    text-decoration: none;
+    font-size: 2em;
+    color: white;
+  }
+
+  .navbar__links__mobile a:hover {
+    text-decoration: none;
+    font-size: 2em;
+    color: var(--main-color-blue-light);
+  }
+
+  .hidden {
     display: none;
   }
-  
-  @media (max-width: 768px) {
-    .burguerMenu {
-      position: relative;
-      z-index: 10000;
-      display: flex;
-      flex-direction: column;
-      width: 100%;
-    }
-  
-    .navbar__burguer-icon {
-      margin-left: auto;
-    }
-  
-    .navbar__brand-logo {
-      margin-bottom: 16px;
-    }
-  
-    .navbar__links__mobile ul {
-      padding: 0;
-      margin: 0;
-  
-      text-align: center;
-    }
-  
-    .navbar__links__mobile li {
-      list-style: none;
-      padding: 1em 0;
-    }
-  
-    .navbar__links__mobile a {
-      text-decoration: none;
-      font-size: 2em;
-      color: white;
-    }
-  
-    .navbar__links__mobile a:hover {
-      text-decoration: none;
-      font-size: 2em;
-      color: var(--main-color-blue-light);
-    }
-  
-    .hidden {
-      display: none;
-    }
-  }
-  
+}
