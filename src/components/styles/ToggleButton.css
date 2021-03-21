@@ -21,7 +21,6 @@
 .bar {
   border: 2px solid var(--main-color-light);
   width: 30px;
-  height: 4px;
   margin: 3px;
 }
 
