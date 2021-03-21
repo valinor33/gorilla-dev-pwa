@@ -12,7 +12,9 @@ function Home() {
         <NavBar />
         <main className="main">
           <SideBar />
-          <div className="container">{/* <HomeMainContent /> */}</div>
+          <div className="container">
+            <HomeMainContent />
+          </div>
         </main>
       </div>
     </React.Fragment>
