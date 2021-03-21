@@ -1,136 +1,15 @@
 .home {
-    background-image: url("../../assets/background-home.jpg");
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: contain;
-    background-attachment: fixed;
-  }
-  
-  .container {
-    display: flex;
-    height: 100vh;
-    width: 100%;
-    justify-content: center;
-    align-items: top;
-  }
-  
-  .main__content {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 600px;
-    flex-direction: column;
-  }
-  
-  .main__content-title {
-    color: var(--main-color-light);
-    font-weight: 200;
-    font-size: 48px;
-    width: 600px;
-    margin-bottom: 50px;
-    animation: fadeIn 3s;
-    position: relative;
-  }
-  
-  .main__content-title span {
-    font-weight: 400;
-    color: var(--main-color-blue-light);
-  }
-  
-  @keyframes fadeIn {
-    from {
-      top: -50px;
-      opacity: 0;
-    }
-    to {
-      top: 0;
-      opacity: 1;
-    }
-  }
-  
-  .main__content-card1 {
-    background-color: var(--main-color-gray);
-    width: 720px;
-    height: 480px;
-    border-radius: 10px;
-    display: flex;
-    align-items: flex-end;
-    position: relative;
-    justify-content: flex-end;
-    animation: fadeLeft 3s;
-    animation-delay: 1s;
-    animation-fill-mode: backwards;
-  }
-  
-  @keyframes fadeLeft {
-    from {
-      left: -50px;
-      opacity: 0;
-    }
-    to {
-      left: 0px;
-      opacity: 1;
-    }
-  }
-  
-  .main__content-card2 {
-    background-color: #bdbdbd;
-    width: 180px;
-    height: 320px;
-    border-radius: 10px;
-    position: relative;
-    top: 40px;
-    right: -75px;
-    animation: fadeRight 3s;
-    animation-delay: 1s;
-  }
-  
-  @keyframes fadeRight {
-    from {
-      right: -180px;
-      opacity: 0;
-    }
-    to {
-      right: -75px;
-      opacity: 1;
-    }
-  }
-  
-  @media (max-width: 1023px) {
-    .main__content-title {
-      font-size: 48px;
-      text-align: center;
-    }
-  
-    .main__content-cards {
-      padding-top: 40px;
-    }
-  
-    .main__content-card1 {
-      width: 360px;
-      height: 240px;
-    }
-    .main__content-card2 {
-      width: 90px;
-      height: 160px;
-      top: 25px;
-      right: -37px;
-    }
-  }
-  
-  @media (max-width: 768px) {
-  }
-  
-  @media (max-width: 480px) {
-    .main__content {
-      width: 320px;
-      align-items: center;
-    }
-  
-    .main__content-title {
-      font-size: 24px;
-      width: 100%;
-      text-align: center;
-    }
-  }
-  
+  background-image: url("../../assets/background-home.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: contain;
+  background-attachment: fixed;
+}
+
+.container {
+  display: flex;
+  height: 100vh;
+  width: 100%;
+  justify-content: center;
+  align-items: top;
+}

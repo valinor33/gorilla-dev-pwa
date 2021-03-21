@@ -1,4 +1,5 @@
 import React from "react";
+import HomeMainContent from "../components/HomeMainContent";
 import NavBar from "../components/NavBar";
 import SideBar from "../components/SideBar";
 
@@ -11,19 +12,7 @@ function Home() {
         <NavBar />
         <main className="main">
           <SideBar />
-          <div className="container">
-            <section className="main__content">
-              <h1 className="main__content-title">
-                ¡Hola, somos <span>Gorilla Dev! </span>
-                Diseñamos <span>experiencias</span>
-              </h1>
-              <div className="main__content-cards">
-                <div className="main__content-card1">
-                  <div className="main__content-card2"></div>
-                </div>
-              </div>
-            </section>
-          </div>
+          <div className="container">{/* <HomeMainContent /> */}</div>
         </main>
       </div>
     </React.Fragment>
